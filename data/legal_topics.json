@@ -47,6 +47,83 @@
         ],
         "answer": 1,
         "explanation": "A clear factual record helps a trusted adult or qualified professional understand what happened."
+      },
+      {
+        "question": "You read a viral post claiming a new law applies to every teenager. What should you do?",
+        "options": [
+          "Forward it immediately",
+          "Trust it if it has many likes",
+          "Check an official source for your location and date",
+          "Assume it is true in every country"
+        ],
+        "answer": 2,
+        "explanation": "Legal rules vary by jurisdiction and can change. Official, current sources are more reliable than viral posts."
+      },
+      {
+        "question": "You want help understanding a legal form. What is the safest approach?",
+        "options": [
+          "Sign it without reading",
+          "Ask a qualified person or trusted adult to explain it before signing",
+          "Post your full form online",
+          "Copy a stranger’s answers"
+        ],
+        "answer": 1,
+        "explanation": "A trusted adult or qualified professional can help explain the form without exposing your private details."
+      },
+      {
+        "question": "You disagree with a decision and want to ask for a review. What should you collect?",
+        "options": [
+          "Only rumors",
+          "Someone else’s passwords",
+          "Nothing until the deadline passes",
+          "Dates, written notices, policies, and relevant messages"
+        ],
+        "answer": 3,
+        "explanation": "A timeline and the written decision can help you understand available review steps and deadlines."
+      },
+      {
+        "question": "A classmate asks you to post another student’s home address during a dispute. What should you do?",
+        "options": [
+          "Refuse to share the address and seek appropriate help",
+          "Post it to win the argument",
+          "Share it in a larger group",
+          "Ask strangers to investigate"
+        ],
+        "answer": 0,
+        "explanation": "Protecting personal information is important even during a disagreement."
+      },
+      {
+        "question": "Which statement about legal advice from an AI app is most accurate?",
+        "options": [
+          "AI answers always replace lawyers",
+          "A popular chatbot knows every local rule",
+          "AI can explain general ideas but a qualified local professional is needed for a real case",
+          "Legal rules never change"
+        ],
+        "answer": 2,
+        "explanation": "Educational AI can help you learn concepts, but it cannot verify every fact or replace individualized legal advice."
+      },
+      {
+        "question": "A deadline appears on a letter from an agency. What is a sensible next step?",
+        "options": [
+          "Ignore it because deadlines are optional",
+          "Save the letter and promptly ask a qualified local resource what the deadline means",
+          "Delete the letter",
+          "Post the entire letter with identifying details"
+        ],
+        "answer": 1,
+        "explanation": "Some deadlines affect your options, so preserve the document and seek timely, trustworthy guidance."
+      },
+      {
+        "question": "A legal situation makes you feel physically unsafe right now. What comes first?",
+        "options": [
+          "Finishing an online quiz",
+          "Arguing with strangers online",
+          "Gathering likes",
+          "Moving to safety and contacting emergency or trusted adult support"
+        ],
+        "answer": 3,
+        "explanation": "Immediate safety comes before researching a legal question online."
       }
     ]
   },
@@ -111,6 +188,50 @@
         ],
         "answer": 1,
         "explanation": "School type, jurisdiction, policy, and the exact facts can all affect the analysis."
+      },
+      {
+        "question": "A school sends a discipline notice you do not understand. What should you request?",
+        "options": [
+          "A written explanation of the rule and any review process",
+          "A stranger’s login details",
+          "A list of students’ home addresses",
+          "A promise to ignore all school policies"
+        ],
+        "answer": 0,
+        "explanation": "The written rule and available review process are good starting points for a calm discussion."
+      },
+      {
+        "question": "A student says every school must follow exactly the same search rules. What is the better response?",
+        "options": [
+          "Agree without checking",
+          "Ask only social media",
+          "Consider school type, location, policy, and the facts",
+          "Assume no school can ever search anything"
+        ],
+        "answer": 2,
+        "explanation": "Public and private schools may operate under different legal frameworks, and circumstances matter."
+      },
+      {
+        "question": "You believe a classmate is being bullied at school. Which response is most constructive?",
+        "options": [
+          "Share the bullying video publicly",
+          "Document the concern and use a trusted adult or school reporting channel",
+          "Threaten the alleged bully",
+          "Ignore immediate safety risks"
+        ],
+        "answer": 1,
+        "explanation": "Reporting through a trusted channel helps protect students and preserves relevant information."
+      },
+      {
+        "question": "You want to challenge a school decision. Which habit is most helpful?",
+        "options": [
+          "Send insults to staff",
+          "Invent supporting details",
+          "Share classmates’ private messages",
+          "Keep a factual timeline and follow the published appeal procedure"
+        ],
+        "answer": 3,
+        "explanation": "Accurate records and the school’s published process are more useful than rumors or threats."
       }
     ]
   },
@@ -180,6 +301,50 @@
         ],
         "answer": 2,
         "explanation": "Exact location and schedule information can create privacy and safety risks."
+      },
+      {
+        "question": "A friend asks for your account password to prove you trust them. What should you do?",
+        "options": [
+          "Give it to them",
+          "Post it in a group chat",
+          "Keep it private and use account security tools",
+          "Reuse it on other sites"
+        ],
+        "answer": 2,
+        "explanation": "Passwords and access codes should stay private; enable multi-factor authentication when possible."
+      },
+      {
+        "question": "An unknown account impersonates you online. Which first steps are sensible?",
+        "options": [
+          "Preserve screenshots, report the account, and tell a trusted adult",
+          "Send your password to the impersonator",
+          "Share their guessed home address",
+          "Delete every record"
+        ],
+        "answer": 0,
+        "explanation": "Preserving evidence and reporting impersonation are safer than escalating or sharing credentials."
+      },
+      {
+        "question": "You see a post containing someone’s private phone number. What should you avoid?",
+        "options": [
+          "Reporting the post",
+          "Asking a trusted adult for help",
+          "Using platform safety tools",
+          "Reposting the number to more people"
+        ],
+        "answer": 3,
+        "explanation": "Redistributing someone’s contact details can increase harm, even when your goal is to warn others."
+      },
+      {
+        "question": "A suspicious link says your account will be locked unless you sign in now. What should you do?",
+        "options": [
+          "Enter your password quickly",
+          "Open the official app or site directly and verify the alert",
+          "Forward the link to classmates",
+          "Send a verification code to the sender"
+        ],
+        "answer": 1,
+        "explanation": "Access the service through its known official channel instead of following a suspicious link."
       }
     ]
   },
@@ -233,6 +398,61 @@
         ],
         "answer": 1,
         "explanation": "Immediate safety and real-world support come before educational discussion."
+      },
+      {
+        "question": "A teenager feels unsafe at home tonight. What should take priority?",
+        "options": [
+          "Keeping the issue secret no matter what",
+          "Moving to a safer place and contacting trusted or emergency support",
+          "Posting a live location publicly",
+          "Trying to solve everything through an AI chat"
+        ],
+        "answer": 1,
+        "explanation": "Immediate safety and real-world help come before online legal research."
+      },
+      {
+        "question": "Parents disagree about a child’s living arrangements. Which statement is most accurate?",
+        "options": [
+          "Every family follows identical rules worldwide",
+          "A teen can always decide every outcome alone",
+          "A social-media vote settles the case",
+          "Family rules depend on local law and the particular circumstances"
+        ],
+        "answer": 3,
+        "explanation": "Family-law outcomes are highly fact- and jurisdiction-specific and may require qualified local guidance."
+      },
+      {
+        "question": "A friend tells you about possible abuse. What is a safer response?",
+        "options": [
+          "Listen, avoid promising secrecy, and help them reach a trusted adult or appropriate support",
+          "Post their story publicly",
+          "Confront a dangerous person alone",
+          "Tell them no one can help"
+        ],
+        "answer": 0,
+        "explanation": "Supportive listening and appropriate real-world help are safer than public disclosure or confrontation."
+      },
+      {
+        "question": "Someone asks you to upload private family court papers to a public chat. What should you do?",
+        "options": [
+          "Upload every page",
+          "Include everyone’s full names",
+          "Protect the documents and seek private qualified guidance",
+          "Share your family’s home address"
+        ],
+        "answer": 2,
+        "explanation": "Family records can contain highly sensitive details and should not be posted publicly."
+      },
+      {
+        "question": "A custody-related rumor is spreading online. What is a responsible way to learn the rules?",
+        "options": [
+          "Treat the rumor as a court order",
+          "Check reliable local sources with a trusted adult or qualified lawyer",
+          "Ask strangers to vote",
+          "Assume laws never differ by state"
+        ],
+        "answer": 1,
+        "explanation": "Local rules and actual legal orders matter more than online speculation."
       }
     ]
   },
@@ -287,6 +507,61 @@
         ],
         "answer": 1,
         "explanation": "Calm behavior and prompt adult or legal support are safer than resistance, false statements, or evidence destruction."
+      },
+      {
+        "question": "A teenager receives an official notice related to a criminal allegation. What is a sensible next step?",
+        "options": [
+          "Ignore the notice",
+          "Post the entire notice publicly",
+          "Seek prompt help from a trusted adult and qualified local legal counsel",
+          "Delete messages about the incident"
+        ],
+        "answer": 2,
+        "explanation": "Criminal matters can have serious consequences and deadlines, so qualified local guidance is important."
+      },
+      {
+        "question": "Someone tells you to delete messages after an incident to avoid trouble. What should you do?",
+        "options": [
+          "Preserve potentially relevant records and ask qualified counsel about lawful next steps",
+          "Delete everything",
+          "Change other people’s records",
+          "Invent a different timeline"
+        ],
+        "answer": 0,
+        "explanation": "Destroying or changing evidence can create further problems; preserve records and seek advice."
+      },
+      {
+        "question": "Which statement about police procedures is most reliable?",
+        "options": [
+          "Every encounter follows identical rules",
+          "A video clip proves every rule",
+          "You should always resist physically",
+          "Rights and procedures depend on local law and circumstances"
+        ],
+        "answer": 3,
+        "explanation": "Police encounters can be legally complex. Avoid physical escalation and seek local professional guidance."
+      },
+      {
+        "question": "A friend asks you how to evade an investigation. What is the responsible response?",
+        "options": [
+          "Give hiding instructions",
+          "Encourage lawful advice from a qualified attorney instead of concealment",
+          "Destroy records",
+          "Spread false information"
+        ],
+        "answer": 1,
+        "explanation": "An educational app should encourage lawful support, not evasion or evidence destruction."
+      },
+      {
+        "question": "Why should a teenager avoid discussing the details of an ongoing case in public posts?",
+        "options": [
+          "Public posts can spread private facts and complicate the situation",
+          "Because every post is automatically a confession",
+          "Because laws never apply online",
+          "Because social media is always private"
+        ],
+        "answer": 0,
+        "explanation": "Public posts can be saved, reshared, or misunderstood; use private qualified advice for an active case."
       }
     ]
   },
@@ -341,6 +616,61 @@
         ],
         "answer": 1,
         "explanation": "Evidence and calm support are more useful than retaliation, threats, or false records."
+      },
+      {
+        "question": "A delivery arrives damaged. What information is most useful to keep?",
+        "options": [
+          "A rumor about the seller",
+          "Only an angry comment",
+          "Receipts, photos, the listing, and messages",
+          "A stranger’s account password"
+        ],
+        "answer": 2,
+        "explanation": "Purchase records and photos can help clarify what happened and what remedies may be available."
+      },
+      {
+        "question": "Two neighbors disagree about property damage. What is a constructive first step?",
+        "options": [
+          "Threaten the other person",
+          "Write down facts, dates, and any relevant communications",
+          "Post private addresses online",
+          "Change the evidence"
+        ],
+        "answer": 1,
+        "explanation": "A factual record helps both sides and any mediator or professional understand the dispute."
+      },
+      {
+        "question": "Which statement best describes a civil dispute?",
+        "options": [
+          "Every civil dispute is a criminal prosecution",
+          "All civil cases are identical worldwide",
+          "Only adults can ever be affected",
+          "It can involve disagreements over money, property, contracts, or other rights"
+        ],
+        "answer": 3,
+        "explanation": "Civil law often addresses noncriminal disputes, although particular issues may overlap with other legal areas."
+      },
+      {
+        "question": "A friend offers to settle a serious dispute with a handshake but no written details. What is sensible?",
+        "options": [
+          "Ask for clear written terms and seek appropriate adult or legal review",
+          "Assume verbal promises are always meaningless",
+          "Sign a blank paper",
+          "Share private details publicly"
+        ],
+        "answer": 0,
+        "explanation": "Clear documentation can reduce misunderstandings; whether an agreement is enforceable depends on local law."
+      },
+      {
+        "question": "Where should you start when checking a possible small-claims process?",
+        "options": [
+          "An unrelated influencer",
+          "A random international forum",
+          "Official local court guidance and filing rules",
+          "A gaming leaderboard"
+        ],
+        "answer": 2,
+        "explanation": "Courts publish jurisdiction-specific procedures, amounts, fees, and deadlines."
       }
     ]
   },
@@ -396,6 +726,61 @@
         ],
         "answer": 1,
         "explanation": "Work and pay records provide a factual timeline that an adult or professional can review."
+      },
+      {
+        "question": "A teen thinks their paycheck is missing hours. What should they preserve?",
+        "options": [
+          "Only an oral rumor",
+          "Their schedule, time records, and pay statements",
+          "Someone else’s password",
+          "No records"
+        ],
+        "answer": 1,
+        "explanation": "Work schedules and pay records help clarify a possible wage dispute."
+      },
+      {
+        "question": "A job asks a teenager to perform a dangerous task. What is the safest general response?",
+        "options": [
+          "Hide the concern",
+          "Try it without training",
+          "Post the supervisor’s home address",
+          "Avoid immediate danger and seek help from a trusted adult or appropriate authority"
+        ],
+        "answer": 3,
+        "explanation": "Safety comes first; age restrictions and workplace rules vary by jurisdiction and task."
+      },
+      {
+        "question": "Which factor can affect a teenager’s permitted working hours?",
+        "options": [
+          "Age, school status, job type, and local rules",
+          "Their favorite music",
+          "The number of social media followers",
+          "The color of the uniform"
+        ],
+        "answer": 0,
+        "explanation": "Youth employment restrictions may depend on age, schooling, job duties, and local laws."
+      },
+      {
+        "question": "A manager makes a work rule you do not understand. What can you request?",
+        "options": [
+          "Another worker’s private records",
+          "An argument on social media",
+          "The written workplace policy or explanation",
+          "An unrelated school handbook"
+        ],
+        "answer": 2,
+        "explanation": "Written workplace rules and pay information can help clarify expectations."
+      },
+      {
+        "question": "You suspect workplace discrimination. What is a useful first step?",
+        "options": [
+          "Delete all messages",
+          "Record relevant incidents and seek trusted or qualified support",
+          "Retaliate against coworkers",
+          "Share everyone’s private details"
+        ],
+        "answer": 1,
+        "explanation": "Accurate records and appropriate reporting or legal resources can help evaluate the situation."
       }
     ]
   },
@@ -450,6 +835,61 @@
         ],
         "answer": 1,
         "explanation": "Free trials often have renewal and cancellation terms that should be understood before agreement."
+      },
+      {
+        "question": "A free trial requires a payment card. What should you check before signing up?",
+        "options": [
+          "The renewal price, cancellation process, and terms",
+          "Only the logo color",
+          "How many friends clicked the ad",
+          "Whether the ad uses emojis"
+        ],
+        "answer": 0,
+        "explanation": "Trial offers may renew automatically, so review the price, dates, and cancellation rules."
+      },
+      {
+        "question": "A teenager wants to sign an expensive agreement. What is sensible?",
+        "options": [
+          "Sign immediately without reading",
+          "Assume all contracts with minors are void",
+          "Ask a trusted adult or qualified professional to review it and check local rules",
+          "Share private details in a public forum"
+        ],
+        "answer": 2,
+        "explanation": "Contract capacity and enforceability for minors depend on the agreement and local law."
+      },
+      {
+        "question": "You bought something online and want a refund. What should you keep?",
+        "options": [
+          "Only a screenshot of the store logo",
+          "A friend’s password",
+          "Nothing",
+          "Order confirmation, receipt, listing, and refund terms"
+        ],
+        "answer": 3,
+        "explanation": "Purchase documents help explain what was promised and what return rules apply."
+      },
+      {
+        "question": "Which is a warning sign in an online purchase?",
+        "options": [
+          "Clear written policies",
+          "Pressure to pay through an untraceable method without reviewing terms",
+          "A detailed receipt",
+          "A verified official seller page"
+        ],
+        "answer": 1,
+        "explanation": "Pressure, secrecy, and unusual payment demands can signal scams or unfair practices."
+      },
+      {
+        "question": "Why does the location matter when asking about consumer rights?",
+        "options": [
+          "Consumer protection laws and remedies vary by jurisdiction",
+          "All online shops use one global law",
+          "Refunds are never regulated",
+          "Age never matters"
+        ],
+        "answer": 0,
+        "explanation": "Local consumer rules, contracts, and payment protections can differ."
       }
     ]
   },
@@ -502,6 +942,61 @@
         ],
         "answer": 0,
         "explanation": "A factual record helps the responsible adult or organization evaluate what happened."
+      },
+      {
+        "question": "A student experiences repeated targeted harassment. What is a constructive response?",
+        "options": [
+          "Retaliate with threats",
+          "Post classmates’ private information",
+          "Record incidents and use an appropriate school or trusted-adult reporting channel",
+          "Assume reporting is never possible"
+        ],
+        "answer": 2,
+        "explanation": "A factual timeline and appropriate reporting can support a safer response."
+      },
+      {
+        "question": "What is the most useful record for a possible discrimination complaint?",
+        "options": [
+          "Dates, descriptions, relevant communications, and witnesses if available",
+          "Only anonymous rumors",
+          "An unrelated meme",
+          "A guess about motives presented as fact"
+        ],
+        "answer": 0,
+        "explanation": "Specific factual records help others evaluate what happened without relying on speculation."
+      },
+      {
+        "question": "A friend tells you about harassment but asks you to keep everything secret. What should you do?",
+        "options": [
+          "Promise never to seek help under any circumstances",
+          "Share the story publicly",
+          "Confront the accused person alone",
+          "Listen supportively and encourage trusted help, especially if safety is at risk"
+        ],
+        "answer": 3,
+        "explanation": "You can respect privacy while helping someone access appropriate support."
+      },
+      {
+        "question": "Which statement about discrimination law is most accurate?",
+        "options": [
+          "Every rude comment is automatically a federal crime",
+          "Protections depend on the setting, facts, and applicable laws",
+          "Discrimination rules never change",
+          "Only online polls determine rights"
+        ],
+        "answer": 1,
+        "explanation": "Legal protections vary across schools, work, housing, and other settings."
+      },
+      {
+        "question": "Someone reports a serious incident. What should you avoid?",
+        "options": [
+          "Preserving relevant messages",
+          "Using established reporting channels",
+          "Publishing sensitive personal details about the people involved",
+          "Asking a trusted adult for help"
+        ],
+        "answer": 2,
+        "explanation": "Avoid spreading identifying details or unverified allegations while seeking support."
       }
     ]
   },
@@ -555,6 +1050,61 @@
         ],
         "answer": 1,
         "explanation": "The actor, place, content, and governing rules all affect the analysis."
+      },
+      {
+        "question": "A teen says freedom of speech means every private platform must host any post. What is more accurate?",
+        "options": [
+          "Government speech protections and private-platform rules are not the same thing",
+          "Every platform is a government agency",
+          "All speech is protected in every situation",
+          "Posting online has no consequences"
+        ],
+        "answer": 0,
+        "explanation": "Constitutional rules and private-platform policies can operate differently."
+      },
+      {
+        "question": "A school removes a student post. What matters when evaluating the situation?",
+        "options": [
+          "Only the number of likes",
+          "Only whether the post was funny",
+          "The location, school type, facts, and applicable policies and law",
+          "The color of the website"
+        ],
+        "answer": 2,
+        "explanation": "Student expression questions are fact-specific and may differ between public and private schools."
+      },
+      {
+        "question": "Someone wants to respond to an upsetting online opinion. Which option is safer?",
+        "options": [
+          "Publish the speaker’s address",
+          "Threaten them",
+          "Hack their account",
+          "Disagree respectfully or use platform reporting tools if needed"
+        ],
+        "answer": 3,
+        "explanation": "You can express disagreement without threats or privacy violations."
+      },
+      {
+        "question": "Why should you verify a screenshot of a supposed new speech law?",
+        "options": [
+          "Because screenshots always prove the law",
+          "Because context, dates, and jurisdiction may be missing",
+          "Because laws are never written down",
+          "Because only celebrities can discuss rights"
+        ],
+        "answer": 1,
+        "explanation": "A screenshot can omit important context or be outdated; check the original source."
+      },
+      {
+        "question": "Which statement about student protests is most responsible?",
+        "options": [
+          "Rules may depend on where and how the event occurs; review local and school guidance",
+          "All protests are always prohibited",
+          "No school can ever set time or place rules",
+          "There are no safety considerations"
+        ],
+        "answer": 0,
+        "explanation": "Expression rights and school rules depend on the setting and facts."
       }
     ]
   },
@@ -609,6 +1159,61 @@
         ],
         "answer": 1,
         "explanation": "A recognized license explains how others may use, modify, and share the code."
+      },
+      {
+        "question": "You find an image online and want to use it in an app. What should you check?",
+        "options": [
+          "Whether it looks popular",
+          "Whether a friend likes it",
+          "Its license, permissions, and applicable exceptions",
+          "Whether it has a bright color"
+        ],
+        "answer": 2,
+        "explanation": "Online availability does not automatically grant permission to reuse creative work."
+      },
+      {
+        "question": "What does an open-source license usually do?",
+        "options": [
+          "Grant permissions subject to its terms",
+          "Automatically erase all copyright",
+          "Make every image on the internet free",
+          "Require every user to pay the author"
+        ],
+        "answer": 0,
+        "explanation": "Open-source licenses set conditions for using, modifying, and sharing code."
+      },
+      {
+        "question": "A student publishes original source code on GitHub with no license. What is safest to assume?",
+        "options": [
+          "Anyone may sell it without conditions",
+          "It is public domain automatically",
+          "Copyright no longer exists",
+          "Public visibility alone does not give broad reuse permission"
+        ],
+        "answer": 3,
+        "explanation": "A public repository is not automatically open source without an applicable license."
+      },
+      {
+        "question": "Which habit helps credit collaborators fairly?",
+        "options": [
+          "Delete commit history",
+          "Record authorship and contributions accurately",
+          "Claim everyone’s work as your own",
+          "Avoid documenting who created what"
+        ],
+        "answer": 1,
+        "explanation": "Clear records of contributions help avoid confusion about credit and ownership."
+      },
+      {
+        "question": "You want to use a copyrighted song in an app demo. What should you do?",
+        "options": [
+          "Assume short clips are always free",
+          "Copy it without checking",
+          "Review permissions, licenses, or applicable exceptions",
+          "Hide the original artist’s name"
+        ],
+        "answer": 2,
+        "explanation": "Music rights can be complex, and a short excerpt is not automatically permitted."
       }
     ]
   },
@@ -692,6 +1297,50 @@
         ],
         "answer": 1,
         "explanation": "A property’s tax basis can be calculated differently for gifts and inherited property; get individual tax guidance."
+      },
+      {
+        "question": "Parents want a child to inherit their home. What is a useful planning step?",
+        "options": [
+          "Compare wills, trusts, deeds, and beneficiary options with qualified local advice",
+          "Assume one form works everywhere",
+          "Transfer the title without checking a mortgage",
+          "Rely only on a social-media comment"
+        ],
+        "answer": 0,
+        "explanation": "The best transfer method depends on local law, title, family circumstances, taxes, and any loan."
+      },
+      {
+        "question": "What does probate commonly refer to?",
+        "options": [
+          "A type of home insurance",
+          "A process for administering some property after a person dies",
+          "A guaranteed tax exemption",
+          "A bank account password"
+        ],
+        "answer": 1,
+        "explanation": "Probate is a legal process that may apply to an estate; the rules and exceptions vary."
+      },
+      {
+        "question": "Why should a family review the mortgage before transferring a house?",
+        "options": [
+          "Because mortgages vanish whenever ownership changes",
+          "Because title and debt are always identical",
+          "Because only social media determines loan rules",
+          "Because loan obligations and transfer provisions can matter"
+        ],
+        "answer": 3,
+        "explanation": "Changing title does not automatically eliminate a mortgage, and loan terms may affect a transfer."
+      },
+      {
+        "question": "A family wants to compare gifting a home now with inheriting it later. What should they consider?",
+        "options": [
+          "Only the paint color",
+          "Only the home’s age",
+          "Potential tax-basis, gift-tax, estate, and local-law consequences",
+          "The number of online likes"
+        ],
+        "answer": 2,
+        "explanation": "Lifetime gifts and inheritance can have different tax and legal consequences; get qualified advice."
       }
     ]
   },
@@ -750,6 +1399,61 @@
         ],
         "answer": 1,
         "explanation": "Keep written records and verify the local legal process before acting."
+      },
+      {
+        "question": "A landlord says you must leave immediately. What should you check?",
+        "options": [
+          "Only an anonymous forum",
+          "The written notice, lease, and applicable local tenant procedures",
+          "The landlord’s social-media follower count",
+          "Whether your neighbors like the building"
+        ],
+        "answer": 1,
+        "explanation": "Eviction and notice rules depend on local law; written documents and qualified local help matter."
+      },
+      {
+        "question": "You notice damage when moving into a rental. What is a good habit?",
+        "options": [
+          "Document it with dated photos and a written notice to the landlord",
+          "Ignore it until moving out",
+          "Change the lease yourself",
+          "Post private access codes online"
+        ],
+        "answer": 0,
+        "explanation": "Move-in records can help distinguish existing conditions from later damage."
+      },
+      {
+        "question": "What is helpful to keep when paying a security deposit?",
+        "options": [
+          "Only a verbal rumor",
+          "The landlord’s personal social-media posts",
+          "Receipts, the lease, and any condition checklist",
+          "An unrelated job application"
+        ],
+        "answer": 2,
+        "explanation": "Deposit rules vary by location; records can help if there is a disagreement."
+      },
+      {
+        "question": "A rental repair creates a safety concern. What is a responsible first step?",
+        "options": [
+          "Disable all alarms",
+          "Threaten other tenants",
+          "Hide the issue",
+          "Document the problem and promptly notify the appropriate landlord or emergency service"
+        ],
+        "answer": 3,
+        "explanation": "Safety issues deserve timely reporting; serious immediate hazards may require emergency help."
+      },
+      {
+        "question": "Why should a tenant review a lease before signing?",
+        "options": [
+          "Because every lease is identical",
+          "It may explain rent, fees, repairs, notices, and other obligations",
+          "Because verbal promises always replace the lease",
+          "Because legal rules never affect leases"
+        ],
+        "answer": 1,
+        "explanation": "Written terms and local tenant protections can both affect the rental relationship."
       }
     ]
   },
@@ -800,6 +1504,61 @@
         ],
         "answer": 0,
         "explanation": "Patents can cover certain qualifying inventions; the rules differ from copyright and trademark protection."
+      },
+      {
+        "question": "A teen invents a new device. What should they document?",
+        "options": [
+          "Only an advertising slogan",
+          "Other people’s passwords",
+          "Dated notes, sketches, prototypes, and contributor information",
+          "An unrelated movie review"
+        ],
+        "answer": 2,
+        "explanation": "Accurate invention records can help clarify development and contributions."
+      },
+      {
+        "question": "Which is a common patent-related concern before publicly revealing an invention?",
+        "options": [
+          "Disclosure timing can affect rights in some countries",
+          "Public disclosure never matters",
+          "Every idea is automatically patented",
+          "A trademark is always a patent"
+        ],
+        "answer": 0,
+        "explanation": "Patent rights and filing deadlines can depend on disclosure timing and jurisdiction."
+      },
+      {
+        "question": "What is the general difference between a patent and copyright?",
+        "options": [
+          "They are identical",
+          "Patents only protect names",
+          "Copyright only protects physical machines",
+          "Patents may protect qualifying inventions; copyright generally protects original expression"
+        ],
+        "answer": 3,
+        "explanation": "Different intellectual-property rights cover different subject matter and have different requirements."
+      },
+      {
+        "question": "A team builds an invention together. What is a useful practice?",
+        "options": [
+          "Assume whoever uploads the file is the sole inventor",
+          "Document who contributed to the inventive ideas and seek qualified guidance",
+          "Delete collaboration notes",
+          "Choose inventors by popularity"
+        ],
+        "answer": 1,
+        "explanation": "Inventorship is a legal question about contributions to claimed inventions, not simply who manages a repository."
+      },
+      {
+        "question": "Where should a student look for official patent application guidance?",
+        "options": [
+          "Only a social-media ad",
+          "A random gaming site",
+          "The relevant national patent office and qualified patent professionals",
+          "A celebrity fan page"
+        ],
+        "answer": 2,
+        "explanation": "Official patent offices publish current procedures, fees, and guidance."
       }
     ]
   }

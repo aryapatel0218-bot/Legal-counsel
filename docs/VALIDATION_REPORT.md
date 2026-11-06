@@ -1,11 +1,11 @@
-# Smart Nova Upgrade Validation Report
+# Smart Nova + Minigames Next Round Validation Report
 
 Validated for the repository update that introduces optional Gemini/OpenAI text generation while retaining the Streamlit-native Legal Counsel design.
 
 ## Automated tests and static checks
 
-- `streamlit_app.py`, `src/legal_engine.py`, and `src/nova_ai.py` compile successfully under Python.
-- **24/24 unit tests pass** (original 7 engine tests plus new smart Nova tests).
+- `streamlit_app.py`, `src/legal_engine.py`, `src/nova_ai.py`, and `src/quiz_engine.py` compile successfully under Python.
+- **35/35 automated tests pass**, including the original 24 Smart Nova/engine tests, 10 new quiz-engine/content tests, and 1 simulated Streamlit UI flow test.
 - The user's exact question, `How does handing down real estate from parents to children work?`, now returns the `estate_inheritance` lesson when running offline and contains an explanation about home ownership transfer, wills/deeds, and taxes.
 - A deliberately unrelated employment-law model response to the inheritance question is rejected and replaced with the relevant offline material.
 - Generic non-inheritance questions about real estate licensing are not allowed to pass as an estate lesson without meaningful context.
@@ -18,6 +18,15 @@ Validated for the repository update that introduces optional Gemini/OpenAI text 
 - Legal Counsel/Nova header and the existing fixed-header spacing remain intact.
 - Author `Arya Patel` and mentor `Dr. Qingyang Xiao` remain in the correct project credits.
 - Streamlit deployment entrypoint stays `streamlit_app.py` in the repository root; dependencies are in `requirements.txt`.
+
+## Minigames regression verification
+
+- The previous Getting Help topic contained **one** question. It now has **eight** distinct questions; each of the other 13 topics has **six** (86 total).
+- A full shuffled set visits every question exactly once; **Next round** changes the question and widget key.
+- After the last question, a new shuffled set begins and cannot repeat the previous question immediately.
+- Previous answer feedback is not shown on the new round, and the next radio starts unselected.
+- A repeated Check answer cannot increment attempts or accuracy twice.
+- A simulated run of the actual `render_minigames()` function confirms the UI's Check answer → Next round → new question flow without requiring a browser.
 
 ## Limitations / what has NOT been claimed
 

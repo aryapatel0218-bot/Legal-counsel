@@ -2,7 +2,7 @@
 
 ## 1. Unzip the repository
 
-Extract `Legal-Counsel-Smart-Nova-Streamlit-GitHub.zip`. The extracted files should include `streamlit_app.py`, `requirements.txt`, `src/`, `data/`, `.streamlit/`, and the other project files.
+Extract `Legal-Counsel-Minigames-Next-Round-Fixed-GitHub.zip`. The extracted files should include `streamlit_app.py`, `requirements.txt`, `src/`, `data/`, `.streamlit/`, and the other project files.
 
 ## 2. Upload the extracted repository to GitHub
 
@@ -74,7 +74,9 @@ Also check:
 - Chatbox gives a relevant **home-inheritance** explanation for "How does handing down real estate from parents to children work?" and does NOT substitute teen employment rules.
 - Without provider credentials, the Chatbox labels its offline lesson mode and declines unsupported topics instead of giving unrelated answers.
 - With a valid Gemini/OpenAI key in Streamlit secrets, enhanced mode is clearly labelled; the privacy checkbox is required before any question is sent out.
-- Mini-game answers update Progress Gavel metrics.
+- In Minigames → Getting Help, **Round 1 of 8** becomes **Round 2 of 8** after Check answer → Next round, with a different question and no preselected answer.
+- After completing all 8 questions, the app starts **Set 2**, without immediately repeating the last question.
+- Mini-game answers update Progress Gavel metrics once per question.
 - Community moderation rejects obvious personal contact information.
 - Progress export downloads JSON.
 

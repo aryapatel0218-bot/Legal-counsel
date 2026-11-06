@@ -11,6 +11,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from src.nova_ai import NovaConfig, NovaService
+from src.quiz_engine import advance_round, current_round, submit_answer
 
 from src.legal_engine import (
     ACTIVITIES,
@@ -286,9 +287,10 @@ def init_state() -> None:
         "topics_opened": [],
         "quiz_attempts": 0,
         "quiz_correct": 0,
-        "quiz_cursor": {},
-        "quiz_feedback": None,
-        "quiz_feedback_key": "",
+        "quiz_orders": {},
+        "quiz_positions": {},
+        "quiz_cycles": {},
+        "quiz_feedback_by_round": {},
         "community_posts": [
             {
                 "title": "How do I check whether a school rule is written down?",
@@ -620,43 +622,81 @@ def render_minigames(topics: dict[str, dict[str, Any]]) -> None:
     modes = [
         ("🧩", "Situation Match", "Choose the safest or strongest response to a realistic situation."),
         ("⏱", "Vocab Sprint", "Build familiarity with legal terms using plain definitions."),
-        ("✨", "Topic Challenge", "Pick a weak topic and run its available reviewed questions."),
+        ("✨", "Topic Challenge", "Practice different reviewed questions in a shuffled set."),
         ("🏆", "Progress Gavel", "Each completed question contributes to your session progress."),
     ]
     for col, item in zip(cols, modes):
-        with col: feature_card(*item)
+        with col:
+            feature_card(*item)
 
     quiz_topics = {t["short_label"]: tid for tid, t in topics.items() if t.get("quiz")}
     label = st.selectbox("Choose a topic", list(quiz_topics))
     topic_id = quiz_topics[label]
     questions = get_quiz(topic_id)
-    cursor = st.session_state.quiz_cursor.get(topic_id, 0) % len(questions)
-    q = questions[cursor]
-    qkey = f"{topic_id}:{cursor}"
+    round_info = current_round(st.session_state, topic_id, len(questions))
+    q = questions[round_info.question_index]
+    round_key = round_info.key  # Unique across questions, topics, and shuffled sets.
+    feedback = st.session_state.quiz_feedback_by_round.get(round_key)
 
     c1, c2 = st.columns([1.2, .8], gap="large")
     with c1:
-        st.markdown(f'<div class="lc-card"><span class="lc-pill">Round {cursor+1} of {len(questions)}</span><h3 style="margin-top:.8rem">{esc(q["question"])}</h3></div>', unsafe_allow_html=True)
-        choice = st.radio("Choose one answer", range(len(q["options"])), format_func=lambda i: q["options"][i], key=f"choice_{qkey}")
-        if st.button("Check answer", type="primary", use_container_width=True):
-            correct = choice == q["answer"]
-            st.session_state.quiz_attempts += 1
-            st.session_state.quiz_correct += int(correct)
-            st.session_state.quiz_feedback_key = qkey
-            st.session_state.quiz_feedback = {"correct": correct, "explanation": q["explanation"], "correct_option": q["options"][q["answer"]]}
-            record_topic(topic_id)
-        if st.session_state.quiz_feedback_key == qkey and st.session_state.quiz_feedback:
-            f = st.session_state.quiz_feedback
-            if f["correct"]:
-                st.success("Correct — " + f["explanation"])
-            else:
-                st.error("Not quite. Best answer: " + f["correct_option"])
-                st.info(f["explanation"])
-            if st.button("Next round", use_container_width=True):
-                st.session_state.quiz_cursor[topic_id] = cursor + 1
-                st.session_state.quiz_feedback = None
-                st.session_state.quiz_feedback_key = ""
+        st.markdown(
+            f'<div class="lc-card"><span class="lc-pill">Round {round_info.round_number} of '
+            f'{round_info.total_rounds} · Set {round_info.set_number}</span>'
+            f'<h3 style="margin-top:.8rem">{esc(q["question"])}</h3></div>',
+            unsafe_allow_html=True,
+        )
+        # index=None forces a fresh, unselected answer for each new question.
+        # Including the round key in the widget key prevents old choices from
+        # reappearing after the user clicks Next round or changes topic.
+        choice = st.radio(
+            "Choose one answer",
+            range(len(q["options"])),
+            format_func=lambda i: q["options"][i],
+            index=None,
+            key=f"quiz_choice_{round_key}",
+            disabled=feedback is not None,
+        )
+        if feedback is None:
+            if st.button(
+                "Check answer",
+                type="primary",
+                use_container_width=True,
+                disabled=choice is None,
+                key=f"quiz_check_{round_key}",
+            ):
+                # Award XP/accuracy once per question, not on every rerun or
+                # repeated button press. A new set can be scored again.
+                is_new_attempt = submit_answer(
+                    st.session_state,
+                    round_info,
+                    selected_option=choice,
+                    correct_option=q["answer"],
+                    options=q["options"],
+                    explanation=q["explanation"],
+                )
+                if is_new_attempt:
+                    record_topic(topic_id)
                 st.rerun()
+        else:
+            if feedback["correct"]:
+                st.success("Correct — " + feedback["explanation"])
+            else:
+                st.error("Not quite. Best answer: " + feedback["correct_option"])
+                st.info(feedback["explanation"])
+            if len(questions) > 1:
+                if st.button("Next round", use_container_width=True, key=f"quiz_next_{round_key}"):
+                    # Always moves to a different question. The final round
+                    # reshuffles a new set without repeating the last item.
+                    advance_round(st.session_state, topic_id, len(questions))
+                    st.rerun()
+            else:
+                st.info("This topic has one reviewed question. More rounds are coming soon.")
+
+        st.caption(
+            f"{len(questions)} different questions in this topic · "
+            "Questions reshuffle after each set."
+        )
     with c2:
         attempts = st.session_state.quiz_attempts
         accuracy = st.session_state.quiz_correct / attempts if attempts else 0

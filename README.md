@@ -1,4 +1,4 @@
-# Legal Counsel: Teen Legal Learning App
+# Legal Counsel — Teen Legal Learning App
 
 **Legal Counsel** is an open-source, teen-friendly legal education prototype built in Python and Streamlit. The interface in this repository is a Streamlit-native migration of the supplied Legal Counsel UI design, preserving its soft teal/coral visual system, **Nova** assistant, Voicebox, Chatbox, Minigames, and Progress Gavel concepts while connecting them to the existing Python legal-learning and safety engine.
 
@@ -65,6 +65,20 @@ OPENAI_MODEL = "gpt-5.4-mini"
 
 For illustrated owner instructions, testing checks, and cost/privacy caveats, see **[`docs/SMART_NOVA_SETUP.md`](docs/SMART_NOVA_SETUP.md)**.
 
+## Minigames update — Next round now works
+
+The previous **Getting Help** topic had only one question, so the old modulo-based
+cursor kept displaying the same question after **Next round**. This release
+replaces that behavior with a tested shuffled-question deck:
+
+- **86 reviewed questions across 14 legal-learning topics**; Getting Help now has 8 distinct questions, and every other topic has at least 6.
+- **Check answer → Next round** advances to a *different* question, with a fresh, unselected answer and cleared feedback.
+- Each topic displays **Round X of N · Set Y**. After completing the set, a new shuffled set starts, without immediately repeating the last question.
+- Switching topics keeps each topic's place; repeated clicks/reruns do not count an answer twice.
+- No AI key or database is needed for these local mini-games. The original legal-safety notices and author/mentor credits are retained.
+
+For the code change, testing steps, and content-editing guide, see [`docs/MINIGAMES_FIX.md`](docs/MINIGAMES_FIX.md).
+
 ## Main features
 
 - Home experience modeled on the supplied UI design
@@ -73,7 +87,7 @@ For illustrated owner instructions, testing checks, and cost/privacy caveats, se
 - **Offline fallback**: a reviewed topic library including home inheritance/estate planning; no misleading answer when the best text match is irrelevant
 - Safety screening for urgent or unsafe requests and common contact details before an external LLM call
 - Legal topic learning cards
-- Scenario-based minigames and quizzes
+- Scenario-based minigames with 86 questions, shuffled rounds, fresh answer selection, and once-only scoring
 - Progress Gavel, session XP, and topic activity
 - K-means learning-preference demonstration using non-sensitive features
 - Bounded reinforcement-learning activity recommender
@@ -90,7 +104,8 @@ For illustrated owner instructions, testing checks, and cost/privacy caveats, se
 ├── requirements-dev.txt          # Development/test dependencies
 ├── src/
 │   ├── legal_engine.py           # NLP router, safety guard, moderation, ML/RL demos
-│   └── nova_ai.py                # Gemini/OpenAI model adapters, structured answer validation, offline fallback
+│   ├── nova_ai.py                # Gemini/OpenAI model adapters, structured answer validation, offline fallback
+│   └── quiz_engine.py            # Reliable shuffled multi-round quiz state machine
 ├── data/
 │   └── legal_topics.json         # Reviewed educational topic/quiz content
 ├── notebooks/
