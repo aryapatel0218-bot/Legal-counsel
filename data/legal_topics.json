@@ -1,0 +1,806 @@
+{
+  "general_rights": {
+    "label": "Getting Legal Help and Understanding Rights",
+    "short_label": "Getting Help",
+    "icon": "compass",
+    "summary": "A right is a protection or freedom recognized by law. The exact rule can change by country, state, age, school type, and the facts of a situation.",
+    "keywords": [
+      "rights",
+      "law",
+      "legal",
+      "lawyer",
+      "help",
+      "what can i do",
+      "is this legal",
+      "legal aid",
+      "court",
+      "complaint",
+      "report",
+      "adult",
+      "guardian"
+    ],
+    "key_points": [
+      "Start by separating what happened from what you heard online.",
+      "Write down dates, people involved, messages, receipts, and policies while details are fresh.",
+      "Ask a trusted adult or qualified local professional when the issue could affect safety, school, money, housing, immigration, or criminal consequences.",
+      "Do not post private details publicly while looking for help."
+    ],
+    "next_steps": [
+      "Describe the situation using facts and a short timeline.",
+      "Find the relevant written rule, policy, contract, or message.",
+      "Ask a trusted adult which local resource is appropriate.",
+      "Use a lawyer or legal-aid organization for advice about a real case."
+    ],
+    "myth": "A confident answer on social media is not automatically a correct legal answer.",
+    "example_questions": [
+      "How can I tell whether an online legal claim is reliable?",
+      "What information should I collect before asking an adult for help?"
+    ],
+    "quiz": [
+      {
+        "question": "Which is the best first step when a legal-looking problem happens?",
+        "options": [
+          "Post every detail publicly",
+          "Write down the facts and preserve relevant evidence",
+          "Delete all messages",
+          "Assume the most popular comment is correct"
+        ],
+        "answer": 1,
+        "explanation": "A clear factual record helps a trusted adult or qualified professional understand what happened."
+      }
+    ]
+  },
+  "school_rights": {
+    "label": "School Rules and Student Rights",
+    "short_label": "School Rights",
+    "icon": "school",
+    "summary": "Schools can create rules to support learning and safety, but school authority is not unlimited. Public and private schools can follow different legal frameworks, and local rules matter.",
+    "keywords": [
+      "school",
+      "teacher",
+      "principal",
+      "student",
+      "suspension",
+      "detention",
+      "phone",
+      "locker",
+      "search",
+      "dress code",
+      "club",
+      "speech",
+      "discipline",
+      "bullying",
+      "campus"
+    ],
+    "key_points": [
+      "Ask for the written school policy and the reason a rule is being applied.",
+      "Public-school constitutional rules and private-school contract rules can differ.",
+      "A search, discipline decision, or speech restriction can depend heavily on context and local law.",
+      "Students can document events calmly and involve a parent, guardian, counselor, or other trusted adult."
+    ],
+    "next_steps": [
+      "Record the date, location, people involved, and what was said.",
+      "Read the student handbook or relevant school policy.",
+      "Use the school's review or appeal process when one exists.",
+      "Seek local legal help if the issue is serious or unresolved."
+    ],
+    "myth": "A school rule is not automatically the same thing as a criminal law.",
+    "example_questions": [
+      "Can my school take or search my phone?",
+      "What should I do if I think a suspension was unfair?"
+    ],
+    "quiz": [
+      {
+        "question": "A school applies a rule that you do not understand. What is the strongest next move?",
+        "options": [
+          "Threaten the staff member",
+          "Ask for the written policy and involve a trusted adult",
+          "Post another student's private information",
+          "Ignore every school process"
+        ],
+        "answer": 1,
+        "explanation": "Written policies and calm adult support make it easier to understand and challenge a decision appropriately."
+      },
+      {
+        "question": "Why can a legal answer about a school search vary?",
+        "options": [
+          "Because every online comment creates a new law",
+          "Because context, school type, location, and the facts can matter",
+          "Because students never have rights",
+          "Because school handbooks replace all law"
+        ],
+        "answer": 1,
+        "explanation": "School type, jurisdiction, policy, and the exact facts can all affect the analysis."
+      }
+    ]
+  },
+  "digital_privacy": {
+    "label": "Online Privacy, Social Media, and Digital Safety",
+    "short_label": "Digital Safety",
+    "icon": "shield",
+    "summary": "Messages, photos, location data, account access, and online posts can create safety and legal issues. Digital content can spread or remain available even after deletion.",
+    "keywords": [
+      "online",
+      "social media",
+      "instagram",
+      "tiktok",
+      "snapchat",
+      "discord",
+      "privacy",
+      "password",
+      "account",
+      "hacked",
+      "photo",
+      "video",
+      "screenshot",
+      "doxx",
+      "location",
+      "cyberbullying",
+      "sextortion",
+      "blackmail",
+      "leak",
+      "impersonation"
+    ],
+    "key_points": [
+      "Do not share passwords, access codes, home addresses, schedules, or live location publicly.",
+      "Preserve screenshots, usernames, dates, and links when reporting harassment or threats.",
+      "Do not forward private or intimate images, even when trying to help.",
+      "A platform rule, school rule, civil law, and criminal law can all apply differently."
+    ],
+    "next_steps": [
+      "Secure the account by changing passwords and enabling multi-factor authentication.",
+      "Save evidence without reposting harmful content.",
+      "Use the platform's reporting tools and tell a trusted adult.",
+      "Contact emergency or qualified local help when threats, stalking, exploitation, or immediate danger are involved."
+    ],
+    "myth": "Deleting a post does not guarantee that every copy or screenshot disappears.",
+    "example_questions": [
+      "What should I do if someone threatens to leak a private image?",
+      "Can someone legally post my location without permission?"
+    ],
+    "quiz": [
+      {
+        "question": "Someone threatens to leak a private image unless you pay. What is the safest response?",
+        "options": [
+          "Pay immediately and keep it secret",
+          "Preserve evidence, stop engaging, and tell a trusted adult or qualified authority",
+          "Forward the image to friends for advice",
+          "Share your password to prove trust"
+        ],
+        "answer": 1,
+        "explanation": "Preserving evidence and getting real-world support is safer than paying, forwarding, or sharing access."
+      },
+      {
+        "question": "Which item should not be posted publicly?",
+        "options": [
+          "A general hobby",
+          "A book recommendation",
+          "A home address and live schedule",
+          "A favorite school subject"
+        ],
+        "answer": 2,
+        "explanation": "Exact location and schedule information can create privacy and safety risks."
+      }
+    ]
+  },
+  "family_safety": {
+    "label": "Family Law, Personal Safety, and Trusted Support",
+    "short_label": "Family and Safety",
+    "icon": "home",
+    "summary": "Family law can involve custody, guardianship, support, protection, and safety. When a teenager feels unsafe, immediate support matters more than learning legal vocabulary.",
+    "keywords": [
+      "family",
+      "parent",
+      "guardian",
+      "custody",
+      "divorce",
+      "home",
+      "unsafe",
+      "abuse",
+      "neglect",
+      "run away",
+      "foster",
+      "protection",
+      "restraining",
+      "relative",
+      "sibling"
+    ],
+    "key_points": [
+      "A teenager should not handle abuse, neglect, or immediate danger alone.",
+      "Family-law rules differ greatly by location and by the role of parents, guardians, courts, and agencies.",
+      "Trusted adults can include a safe relative, school counselor, teacher, doctor, coach, or local support professional.",
+      "Public posts are not a safe place for names, addresses, or detailed family information."
+    ],
+    "next_steps": [
+      "Move toward a safer place when there is immediate danger.",
+      "Contact local emergency services or a trusted adult who can act now.",
+      "Keep a factual record only when doing so does not increase danger.",
+      "Use qualified local services for custody, guardianship, or protection questions."
+    ],
+    "myth": "A teenager does not have to solve a dangerous family situation without adult help.",
+    "example_questions": [
+      "Who can I talk to if home does not feel safe?",
+      "Why do custody rules change from one place to another?"
+    ],
+    "quiz": [
+      {
+        "question": "What is the priority when a teenager is in immediate danger at home?",
+        "options": [
+          "Winning an online argument",
+          "Getting to safety and contacting real-world help",
+          "Posting the home address publicly",
+          "Waiting for a quiz result"
+        ],
+        "answer": 1,
+        "explanation": "Immediate safety and real-world support come before educational discussion."
+      }
+    ]
+  },
+  "criminal_law": {
+    "label": "Criminal Law and Police Encounters",
+    "short_label": "Criminal Law",
+    "icon": "balance",
+    "summary": "Criminal law concerns conduct that a government treats as an offense. Police procedures and a teenager's rights can depend on location, age, custody status, school setting, and the exact facts.",
+    "keywords": [
+      "criminal",
+      "crime",
+      "police",
+      "arrest",
+      "questioning",
+      "interview",
+      "search",
+      "warrant",
+      "charges",
+      "juvenile",
+      "court",
+      "probation",
+      "evidence",
+      "detained",
+      "ticket",
+      "citation"
+    ],
+    "key_points": [
+      "Stay calm and do not physically resist, threaten, or provide false information.",
+      "A teenager can clearly ask what is happening and request a parent, guardian, trusted adult, or lawyer when appropriate.",
+      "Do not rely on a social-media script as a substitute for local legal advice.",
+      "Do not delete, hide, alter, or destroy possible evidence."
+    ],
+    "next_steps": [
+      "Prioritize safety and calm communication.",
+      "Remember or record details after the encounter when it is safe and lawful to do so.",
+      "Tell a trusted adult promptly.",
+      "Use a qualified local lawyer for advice about an actual investigation or charge."
+    ],
+    "myth": "There is no single sentence that guarantees the same outcome in every police encounter.",
+    "example_questions": [
+      "What should a teen do during police questioning?",
+      "Why is deleting messages after an incident a bad idea?"
+    ],
+    "quiz": [
+      {
+        "question": "Which action is safest during a tense police encounter?",
+        "options": [
+          "Physically resist",
+          "Stay calm, avoid threats, and ask for appropriate adult or legal help",
+          "Give false information",
+          "Delete messages immediately"
+        ],
+        "answer": 1,
+        "explanation": "Calm behavior and prompt adult or legal support are safer than resistance, false statements, or evidence destruction."
+      }
+    ]
+  },
+  "civil_disputes": {
+    "label": "Civil Disputes, Property, and Everyday Problems",
+    "short_label": "Civil Disputes",
+    "icon": "document",
+    "summary": "Civil law often deals with disputes between people or organizations, such as damaged property, money, services, injuries, or agreements. A civil problem is not automatically a crime.",
+    "keywords": [
+      "civil",
+      "sue",
+      "lawsuit",
+      "damage",
+      "property",
+      "broken",
+      "money",
+      "owe",
+      "refund",
+      "neighbor",
+      "injury",
+      "claim",
+      "small claims",
+      "evidence",
+      "receipt",
+      "payment"
+    ],
+    "key_points": [
+      "Evidence can include receipts, messages, photographs, estimates, and a timeline.",
+      "Do not retaliate, threaten, or damage property in response to a dispute.",
+      "A written request for a reasonable solution is often stronger than an angry public post.",
+      "Minors may need a parent, guardian, or lawyer to take certain formal steps."
+    ],
+    "next_steps": [
+      "Preserve receipts, photos, and messages.",
+      "State the problem and requested solution clearly in writing.",
+      "Ask a trusted adult to review the situation.",
+      "Use qualified local help for formal claims or court questions."
+    ],
+    "myth": "Calling something illegal does not automatically turn a private dispute into a criminal case.",
+    "example_questions": [
+      "What evidence helps when someone damages my property?",
+      "What is the difference between a civil dispute and a crime?"
+    ],
+    "quiz": [
+      {
+        "question": "A friend damages your device and refuses to discuss it. What should you do first?",
+        "options": [
+          "Damage their property",
+          "Preserve evidence and ask a trusted adult to help seek a solution",
+          "Threaten them publicly",
+          "Invent a receipt"
+        ],
+        "answer": 1,
+        "explanation": "Evidence and calm support are more useful than retaliation, threats, or false records."
+      }
+    ]
+  },
+  "work_rights": {
+    "label": "Teen Work, Pay, and Workplace Safety",
+    "short_label": "Work Rights",
+    "icon": "briefcase",
+    "summary": "Teen employment rules can cover minimum age, work hours, pay, hazardous tasks, breaks, permits, discrimination, and safety. These rules vary by location and job.",
+    "keywords": [
+      "job",
+      "work",
+      "boss",
+      "manager",
+      "pay",
+      "wage",
+      "hours",
+      "shift",
+      "break",
+      "overtime",
+      "tip",
+      "schedule",
+      "unsafe",
+      "fired",
+      "harassment",
+      "work permit",
+      "internship"
+    ],
+    "key_points": [
+      "Keep copies of schedules, time records, pay statements, and workplace messages.",
+      "Do not perform a task that appears immediately dangerous without seeking help.",
+      "Age limits and permitted work hours can vary by location and school status.",
+      "Workplace reporting paths may include a supervisor, parent or guardian, school program, labor agency, or lawyer."
+    ],
+    "next_steps": [
+      "Write down dates, hours worked, tasks, and amounts paid.",
+      "Ask for workplace rules or the reason for a pay difference in writing.",
+      "Tell a trusted adult about unsafe work or harassment.",
+      "Check an official local labor source or qualified professional."
+    ],
+    "myth": "Being a teenager does not mean an employer can ignore every pay or safety rule.",
+    "example_questions": [
+      "What records should I keep from a part-time job?",
+      "Who can help if a work task feels unsafe?"
+    ],
+    "quiz": [
+      {
+        "question": "Which record is most useful in a pay dispute?",
+        "options": [
+          "A rumor",
+          "Schedules, time records, and pay statements",
+          "A deleted message",
+          "An unrelated social-media post"
+        ],
+        "answer": 1,
+        "explanation": "Work and pay records provide a factual timeline that an adult or professional can review."
+      }
+    ]
+  },
+  "contracts_purchases": {
+    "label": "Contracts, Subscriptions, Purchases, and Money",
+    "short_label": "Contracts and Money",
+    "icon": "wallet",
+    "summary": "Clicking 'I agree,' starting a subscription, buying an item, or accepting a service can create responsibilities. Rules for contracts involving minors vary widely.",
+    "keywords": [
+      "contract",
+      "subscription",
+      "buy",
+      "purchase",
+      "refund",
+      "return",
+      "terms",
+      "agreement",
+      "trial",
+      "cancel",
+      "money",
+      "loan",
+      "debt",
+      "app purchase",
+      "marketplace",
+      "seller"
+    ],
+    "key_points": [
+      "Read price, renewal, cancellation, refund, and data-use terms before agreeing.",
+      "Save receipts, order confirmations, advertisements, and seller messages.",
+      "A minor's ability to enter or cancel an agreement depends on local law and the type of purchase.",
+      "Never send payment or identity documents solely because a stranger creates urgency."
+    ],
+    "next_steps": [
+      "Capture the terms and advertisement that existed when you agreed.",
+      "Use the seller's written cancellation or dispute process.",
+      "Ask a trusted adult before sharing financial or identity information.",
+      "Seek local help for significant money, fraud, or debt issues."
+    ],
+    "myth": "A free trial may still require cancellation before an automatic renewal date.",
+    "example_questions": [
+      "Can a teen cancel an online subscription?",
+      "What should I save after making a purchase?"
+    ],
+    "quiz": [
+      {
+        "question": "Before starting a free trial, what should you check?",
+        "options": [
+          "Only the logo",
+          "Renewal price, cancellation method, and date",
+          "Whether a friend likes the color",
+          "Nothing because free trials never charge"
+        ],
+        "answer": 1,
+        "explanation": "Free trials often have renewal and cancellation terms that should be understood before agreement."
+      }
+    ]
+  },
+  "discrimination_harassment": {
+    "label": "Discrimination, Harassment, and Bullying",
+    "short_label": "Fair Treatment",
+    "icon": "people",
+    "summary": "Discrimination, harassment, and bullying are related but not identical. Legal protection, school policy, workplace policy, and platform rules may overlap.",
+    "keywords": [
+      "discrimination",
+      "harassment",
+      "bullying",
+      "bias",
+      "racism",
+      "sexism",
+      "religion",
+      "disability",
+      "gender",
+      "retaliation",
+      "threat",
+      "slur",
+      "excluded",
+      "unfair treatment"
+    ],
+    "key_points": [
+      "Document exact words, actions, dates, witnesses, and reports rather than relying only on labels.",
+      "Do not retaliate or publish another person's private information.",
+      "Use the school, workplace, team, or platform reporting process.",
+      "Immediate threats or violence require urgent real-world help."
+    ],
+    "next_steps": [
+      "Save relevant messages or screenshots safely.",
+      "Tell a trusted adult and identify witnesses.",
+      "Make a factual report through the appropriate channel.",
+      "Seek qualified local help if the conduct is severe, repeated, or unresolved."
+    ],
+    "myth": "Not every rude act has the same legal meaning, but harmful behavior still deserves a safe response.",
+    "example_questions": [
+      "What evidence should I save after repeated bullying?",
+      "How are school policy and discrimination law different?"
+    ],
+    "quiz": [
+      {
+        "question": "Which report is most useful?",
+        "options": [
+          "A factual timeline with messages and witnesses",
+          "A threat to expose private information",
+          "A made-up quote",
+          "A post that identifies a minor's home address"
+        ],
+        "answer": 0,
+        "explanation": "A factual record helps the responsible adult or organization evaluate what happened."
+      }
+    ]
+  },
+  "speech_expression": {
+    "label": "Speech, Expression, Clubs, and Peaceful Protest",
+    "short_label": "Speech and Expression",
+    "icon": "megaphone",
+    "summary": "Speech rights depend on who is restricting the speech, where it happens, and what the speech contains. Government, schools, employers, and private platforms are not governed by identical rules.",
+    "keywords": [
+      "speech",
+      "expression",
+      "protest",
+      "club",
+      "petition",
+      "post",
+      "censored",
+      "ban",
+      "flag",
+      "religion",
+      "opinion",
+      "journalism",
+      "newspaper",
+      "walkout",
+      "demonstration"
+    ],
+    "key_points": [
+      "A private social-media platform is not the same as the government.",
+      "Schools can regulate some conduct and disruption, but the analysis depends on context and school type.",
+      "Threats, targeted harassment, privacy violations, and unlawful conduct are different from peaceful disagreement.",
+      "Written policies and calm documentation are important."
+    ],
+    "next_steps": [
+      "Identify who made the restriction and which written rule was cited.",
+      "Separate peaceful expression from threats, harassment, or disruption.",
+      "Ask a trusted adult to review the facts and policy.",
+      "Use qualified local help when constitutional or disciplinary issues are serious."
+    ],
+    "myth": "Freedom of speech does not mean every private platform must host every post.",
+    "example_questions": [
+      "Can a private platform remove my post?",
+      "Why do school speech questions depend on context?"
+    ],
+    "quiz": [
+      {
+        "question": "Which statement is most accurate?",
+        "options": [
+          "Every private platform is the government",
+          "Speech rules can differ across government, school, work, and private platforms",
+          "Threats and peaceful disagreement are always identical",
+          "Written policies never matter"
+        ],
+        "answer": 1,
+        "explanation": "The actor, place, content, and governing rules all affect the analysis."
+      }
+    ]
+  },
+  "creative_rights": {
+    "label": "Copyright, Creative Work, and Open Source",
+    "short_label": "Creative Rights",
+    "icon": "lightbulb",
+    "summary": "Creative work can involve copyright, trademarks, licenses, privacy, publicity, and platform terms. Open source means using a license, not giving up every right automatically.",
+    "keywords": [
+      "copyright",
+      "art",
+      "music",
+      "video",
+      "photo",
+      "code",
+      "github",
+      "open source",
+      "license",
+      "plagiarism",
+      "credit",
+      "permission",
+      "trademark",
+      "creator",
+      "remix",
+      "fair use"
+    ],
+    "key_points": [
+      "Giving credit is good practice but does not always replace permission or a license.",
+      "Open-source licenses explain what others may do with code and what conditions apply.",
+      "Copyright exceptions such as fair use are fact-specific and are not automatic labels.",
+      "Keep dated drafts, source files, contributor records, and license notices."
+    ],
+    "next_steps": [
+      "Identify who created each code, image, sound, and text component.",
+      "Check the license before copying or adapting third-party material.",
+      "Add a clear repository license and contribution policy.",
+      "Use qualified legal review before commercialization or formal enforcement."
+    ],
+    "myth": "Writing 'no copyright intended' does not automatically create permission.",
+    "example_questions": [
+      "What does an open-source license do?",
+      "Is giving credit always enough to use an image?"
+    ],
+    "quiz": [
+      {
+        "question": "What makes a GitHub project clearly open source?",
+        "options": [
+          "A public repository with no license",
+          "A clear open-source license that states permissions and conditions",
+          "The words 'free code' in one comment",
+          "Deleting contributor names"
+        ],
+        "answer": 1,
+        "explanation": "A recognized license explains how others may use, modify, and share the code."
+      }
+    ]
+  },
+  "estate_inheritance": {
+    "label": "Home Inheritance and Estate Planning",
+    "short_label": "Inheriting a Home",
+    "icon": "house",
+    "summary": "Parents can pass a home or other real estate to their children during life (often by a legally valid gift or deed) or after death (for example through a will, trust, or an available transfer-on-death arrangement). The right approach depends on local law, ownership, debts, mortgages, and taxes; it is not as simple as changing a name.",
+    "keywords": [
+      "real estate",
+      "handing down",
+      "hand down",
+      "pass down",
+      "pass on the house",
+      "parents to children",
+      "inheritance",
+      "inherit",
+      "inherited",
+      "estate planning",
+      "estate",
+      "bequest",
+      "probate",
+      "heir",
+      "heirs",
+      "beneficiary deed",
+      "transfer-on-death deed",
+      "living trust",
+      "revocable trust",
+      "will and testament",
+      "write a will",
+      "deed",
+      "gift house",
+      "gift deed",
+      "house title",
+      "home title",
+      "property title",
+      "capital gains basis",
+      "step-up in basis",
+      "family property transfer"
+    ],
+    "key_points": [
+      "A lifetime gift of a house and inheriting it after someone dies are different legal transactions. Transferring a home often requires appropriate title/deed documents and recording under local rules.",
+      "A will may require probate, while certain trusts, joint ownership forms, or beneficiary deeds (where permitted) can change how a home passes after death.",
+      "An outstanding mortgage, liens, property taxes, homeowners insurance, and other obligations do not simply disappear when ownership changes.",
+      "In the United States, lifetime gifts and inherited property can have different income-tax basis consequences if the child later sells. Estate, gift, and inheritance tax rules may also matter.",
+      "The legal age of a child, family relationships, ownership form, and country/state can affect which options are available."
+    ],
+    "next_steps": [
+      "Find out whose names are on the deed/title and whether there is a mortgage or other lien; avoid sharing personal documents in chat.",
+      "Ask a local estate-planning lawyer about gifts, a will, trusts, probate, and whether transfer-on-death deeds are permitted.",
+      "Before changing the deed, compare tax and financial consequences with a qualified tax professional.",
+      "If the transfer is due to a death, check the estate administration process in the state or country where the property is located."
+    ],
+    "myth": "Simply naming a child in a will does not always transfer title automatically, and gifting the home early is not always the cheapest tax strategy.",
+    "example_questions": [
+      "How does handing down real estate from parents to children work?",
+      "How can parents leave their house to their kids?",
+      "What is the difference between gifting a home and inheriting it?",
+      "How do deeds, wills, trusts, and probate affect a house?",
+      "What happens to a mortgage on inherited property?"
+    ],
+    "quiz": [
+      {
+        "question": "Which statement is the safest starting point for transferring a parent’s house?",
+        "options": [
+          "Just change the utility bill",
+          "It depends on deeds, ownership, local estate law, debt, and taxes",
+          "Everyone needs the same form worldwide",
+          "A will always avoids probate"
+        ],
+        "answer": 1,
+        "explanation": "Real estate transfer methods and effects vary by jurisdiction and situation."
+      },
+      {
+        "question": "Which tax issue can make gifting a home during life different from inheriting it later in the United States?",
+        "options": [
+          "The child must always pay income tax when receiving any gift",
+          "Gifts and inheritances can have different tax basis rules",
+          "Taxes never apply to property transfers",
+          "Only the color of the house matters"
+        ],
+        "answer": 1,
+        "explanation": "A property’s tax basis can be calculated differently for gifts and inherited property; get individual tax guidance."
+      }
+    ]
+  },
+  "housing_renters": {
+    "label": "Rental Housing and Tenant Rights",
+    "short_label": "Rental Rights",
+    "icon": "home",
+    "summary": "A rental agreement sets many duties for renters and landlords, but local housing laws may also require basic habitability, fair housing, proper notice, and legal procedures before eviction. Rules differ greatly by state, city, age, and housing type.",
+    "keywords": [
+      "rent",
+      "renter",
+      "rental",
+      "tenant",
+      "landlord",
+      "lease",
+      "apartment",
+      "eviction",
+      "evict",
+      "security deposit",
+      "deposit",
+      "housing",
+      "utilities",
+      "habitable",
+      "repair request",
+      "rent increase",
+      "roommate",
+      "notice to vacate",
+      "move out"
+    ],
+    "key_points": [
+      "Read the lease and local rental rules before assuming either party can change the terms.",
+      "Landlords generally must follow lawful notice and eviction procedures; eviction rules vary by location.",
+      "Habitability, repairs, security deposits, and entry notice may be regulated by local rules.",
+      "Minors may face additional capacity/contract restrictions when signing a lease."
+    ],
+    "next_steps": [
+      "Keep the lease, messages, receipts, notices, and repair requests private and organized.",
+      "Check an official local tenant-rights agency or court resource.",
+      "Ask a trusted adult, tenant organization, or qualified local lawyer for help in an active dispute."
+    ],
+    "myth": "A landlord cannot necessarily remove someone instantly just because they say so.",
+    "example_questions": [
+      "Can my landlord evict me without notice?",
+      "Can a teenager sign a lease?",
+      "What are tenant rights if repairs are not made?",
+      "Can I get my security deposit back?"
+    ],
+    "quiz": [
+      {
+        "question": "What is usually a good first step after a landlord threatens eviction?",
+        "options": [
+          "Destroy the lease",
+          "Review written notices and check local lawful procedures",
+          "Ignore all documents",
+          "Publish private addresses online"
+        ],
+        "answer": 1,
+        "explanation": "Keep written records and verify the local legal process before acting."
+      }
+    ]
+  },
+  "patents_inventions": {
+    "label": "Patents and Young Inventors",
+    "short_label": "Patents",
+    "icon": "lightbulb",
+    "summary": "A patent is a government-granted intellectual-property right for certain inventions, distinct from copyright (creative expression) and trademarks (brand identifiers). Patent eligibility, application procedures, ownership, and costs depend on the country and invention.",
+    "keywords": [
+      "patent",
+      "patents",
+      "invent",
+      "invention",
+      "inventor",
+      "prototype",
+      "novelty",
+      "prior art",
+      "patent application",
+      "uspTO",
+      "patent attorney",
+      "intellectual property invention"
+    ],
+    "key_points": [
+      "A patent is different from copyright or a trademark; each protects a different kind of intellectual property.",
+      "Public disclosure of an invention before filing can affect options, especially outside the US.",
+      "Patent applications can be technical and expensive; not every idea is patentable.",
+      "A young inventor may need adult assistance for contracts and representation, depending on circumstances."
+    ],
+    "next_steps": [
+      "Write a nonpublic description of your invention without sharing trade secrets in an open chat.",
+      "Review official patent-office educational resources in your jurisdiction.",
+      "Ask a qualified patent professional or trusted adult before publicly releasing a potentially patentable idea."
+    ],
+    "myth": "Every idea is automatically protected by a patent as soon as you think of it.",
+    "example_questions": [
+      "How do patents work for teen inventors?",
+      "Can a teenager apply for a patent?",
+      "What is the difference between copyright and patents?"
+    ],
+    "quiz": [
+      {
+        "question": "Which legal area most commonly concerns new inventions?",
+        "options": [
+          "Patent law",
+          "Traffic tickets",
+          "Rental deposits",
+          "School uniforms"
+        ],
+        "answer": 0,
+        "explanation": "Patents can cover certain qualifying inventions; the rules differ from copyright and trademark protection."
+      }
+    ]
+  }
+}
